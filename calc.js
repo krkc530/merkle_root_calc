@@ -2,7 +2,7 @@ const RLP = require("rlp");
 const { arrToBufArr } = require("ethereumjs-util");
 const Trie = require("merkle-patricia-tree").BaseTrie;
 const Web3 = require("web3");
-const web3 = new Web3("http://192.168.100.38:12320");
+const web3 = new Web3("http://192.168.0.105:12320");
 const readline = require("readline");
 const { stdin: input, stdout: output } = require("process");
 
